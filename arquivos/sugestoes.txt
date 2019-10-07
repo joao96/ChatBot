@@ -1,0 +1,10 @@
+Sugestões
+Sugestões Pauta ou Outras Sugestões
+Pauta
+Jornalismo é algo colaborativo, sabia? Por isso, pode ficar a vontade para sugerir pautas que você viu por aí ou que está envolvido! Ó, como eu disse, estamos offs até o dia {DIA_DE_RETORNO}, mas veremos sua sugestão assim que possível. Como fonte, você pode ser identificada na matéria ou permanecer no anonimato. Independente da escolha, pediremos seu contato para conversarmos no futuro. (Você prefere estar no ANONIMATO ou se IDENTIFICAR na pauta)
+Anonimato
+INPUT em caixa de texto
+Identificar
+OBA, esse é o melhor presente pra jornalista! Então, para eu saber direitinho o que você está sugerindo, faz um resumo para mim, com todas as infos que você tem e sobe aqui imagens ou vídeos para ilustrar melhor a pauta. Não se esqueça de nos dizer se podemos reproduzir esse conteúdo que me enviou, tá?
+Outras
+Sempre apreciamos sugestões! Como eu disse, estamos indisponíveis até o dia DIA_DE_RETORNO, mas veremos sua sugestão assim que possível. (INPUT em caixa de texto)
