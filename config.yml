@@ -25,4 +25,4 @@ policies:
     priority: 1
   - name: MemoizationPolicy
     priority: 2
-    max_history: 2
+max_history: 2
