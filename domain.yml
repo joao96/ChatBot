@@ -5,6 +5,11 @@ intents:
   - identificar
   - anonimato
   - outras
+  - prob_tecnicos
+  - correcoes
+  - info_incorreta
+  - erro_portugues
+  - erro_tecnico
 
 actions:
 - utter_greet
@@ -14,7 +19,10 @@ actions:
 - utter_agradecimentos
 - utter_anonimato
 - utter_outras
-
+- utter_prob_tecnicos
+- utter_correcoes
+- utter_info_incorreta
+- utter_erro_portugues
 
 
 # ações do Bot de acordo com a resposta do usuário
@@ -23,7 +31,12 @@ templates:
   - text: "Eu sou o Campusito, a foca do Campus Online. Prazer é todo meu, migo! Muito
             bom ver você por aqui, mas sad news: nosso jornal está em período de transição no momento
             e voltamos a ativa no dia {DIA_DE_RETORNO}, só que nada vai me impedir de ouvir tudo o
-            que você tem a dizer e responder assim que possível! Me diz aí o que você manda"
+            que você tem a dizer e responder assim que possível! Me diz aí o que você manda \n
+            - Sugestões \n
+            - Problemas Técnicos \n
+            - Correções \n
+            - Reclamações \n
+            "
 
   utter_sugestao:
   - text: " - Sugestão de pauta \n
@@ -44,11 +57,30 @@ templates:
   - text: "Obrigada, {NOME}, suas mensagens foram salvas. Gostaria de ficar por mais um tempinho e
             falar conosco sobre outro assunto?"
 
-  utter_agradecimentos:
-  - text: "Muito obrigado pelas informações! Arrasou demais!"
-
   utter_outras:
   - text: "Sempre apreciamos sugestões! Como eu disse, estamos indisponíveis até o dia
             {DIA_DE_RETORNO}, mas veremos sua sugestão assim que possível."          
-  
+
+  utter_prob_tecnicos:
+  - text: "Para ajudar a galera do TI, me informa o link que está com erro e que problema você 
+          encontrou nesse link?"
+
+  utter_correcoes:
+  - text: "Eita! Parece que cometemos um erro! Para ajudar nosso time, especifique qual foi o
+          erro: \n
+          - Informações incorretas \n
+          - Erros de português \n
+          - Erros técnicos \n
+          "
+
+  utter_info_incorreta:
+  - text: "Poxa,​ mil desculpas! Nossa credibilidade vale muito para nós. Poderia nos indicar o link de
+          onde erramos e nos contar o erro que cometemos?"
+
+  utter_erro_portugues:
+  - text: "Vixe! Acabamos deixando passar essa! Mas a gente ama saber que nossos leitores são
+          super atentos! Poderia nos indicar o link de onde erramos e especificar que erro cometemos?"
+
+  utter_agradecimentos:
+  - text: "Muito obrigado pelas informações! Arrasou demais!"
   

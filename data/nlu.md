@@ -30,3 +30,29 @@
 
 ## intent:outras
 - outras
+
+## intent:prob_tecnicos
+- problema
+- problemas
+- tecnico
+- técnico
+- tecnicos
+- técnicos
+
+## intent:correcoes
+- correcao
+- correcoes
+- correção
+- correções
+
+## intent:info_incorreta
+- informacao
+- informação
+- informacoes
+- informações
+- incorreta
+- incorretas
+
+## intent:erro_portugues
+- português
+- portugues
