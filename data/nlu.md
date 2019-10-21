@@ -56,3 +56,24 @@
 ## intent:erro_portugues
 - português
 - portugues
+
+## intent:reclamacoes
+- reclamacao
+- reclamaçao
+- reclamação
+- reclamacoes
+- reclamaçoes
+- reclamações
+
+## intent:direito_replica
+- direito
+- replica
+- réplica
+- replicas
+- réplicas
+
+## intent:outro_motivo
+- outro
+- outros
+- motivo
+- motivos

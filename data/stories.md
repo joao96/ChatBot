@@ -53,3 +53,39 @@
   - utter_prob_tecnicos
   - utter_agradecimentos
 
+## reclamacoes path direito_replica
+* reclamacoes
+  - utter_reclamacoes
+* direito_replica
+  - utter_direito_replica
+  - utter_dia_retorno
+  - utter_agradecimentos
+
+## reclamacoes path info_incorreta
+* reclamacoes
+  - utter_reclamacoes
+* info_incorreta
+  - utter_info_incorreta
+  - utter_agradecimentos
+
+## reclamacoes path erro_portugues
+* reclamacoes
+  - utter_reclamacoes
+* erro_portugues
+  - utter_erro_portugues
+  - utter_agradecimentos
+
+## reclamacoes path erro_tecnico
+* reclamacoes
+  - utter_reclamacoes
+* prob_tecnicos
+  - utter_prob_tecnicos
+  - utter_agradecimentos
+
+
+## reclamacoes path outro_motivo
+* reclamacoes
+  - utter_reclamacoes
+* outro_motivo
+  - utter_outro_motivo
+  - utter_agradecimentos
