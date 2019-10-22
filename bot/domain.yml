@@ -90,10 +90,14 @@ templates:
           Obrigada! É sempre bom dar e receber elogios :P
 
   utter_cumprimentar:
-    - text: |
-          Oi, eu sou um bot, um assistente virtual!
-          Uhuu! Manda aí um assunto que te interessa :)
-          Para aprender como você pode interagir comigo basta escrever meajuda.
+    - text: "Eu sou o Campusito, a foca do Campus Online. Prazer é todo meu, migo! Muito bom ver você por aqui, 
+            mas sad news: nosso jornal está em período de transição no momento e voltamos a ativa no dia {DIA_DE_RETORNO}, 
+            só que nada vai me impedir de ouvir tudo o que você tem a dizer e responder assim que possível! Me diz aí o que você manda \n
+          - Sugestões \n
+          - Problemas Técnicos \n
+          - Correções \n
+          - Reclamações \n
+          "
 
   utter_o_que_sei_falar:
     - text: |
