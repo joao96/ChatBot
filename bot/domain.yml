@@ -37,6 +37,20 @@ intents:
   - historia
   - risada
 
+  - greet
+  - sugestao
+  - pauta
+  - anonimato
+  - identificar
+  - outras
+  - prob_tecnicos
+  - correcoes
+  - info_incorreta
+  - erro_portugues
+  - reclamacoes
+  - direito_replica
+  - outro_motivo
+
   - action_test
 
 entities:
@@ -457,6 +471,67 @@ templates:
   - text: |
         Mensagem de negação após clique em botão
 
+  utter_sugestao: 
+  - text: " - Sugestão de pauta \n
+            - Outras sugestões"
+
+  utter_pauta: 
+  - text: "Jornalismo é algo colaborativo, sabia? Por isso, pode ficar a vontade para sugerir pautas que você viu 
+            por aí ou que está envolvido! Ó, como eu disse, estamos offs até o dia {DIA_DE_RETORNO}, mas veremos sua 
+            sugestão assim que possível. Como fonte, você pode ser identificada na matéria ou permanecer no anonimato. 
+            Independente da escolha, pediremos seu contato para conversarmos no futuro."
+
+  utter_anonimato: 
+  - text: "Sem problemas, suas mensagens foram salvas. Você gostaria de ficar mais e falar conosco sobre outro assunto?"
+
+  utter_identificar: 
+  - text: "Obrigada, {NOME}, suas mensagens foram salvas. Gostaria de ficar por mais um tempinho e falar conosco sobre outro assunto?"
+
+  utter_outras: 
+  - text: "Sempre apreciamos sugestões! Como eu disse, estamos indisponíveis até o dia {DIA_DE_RETORNO}, 
+            mas veremos sua sugestão assim que possível."
+
+  utter_prob_tecnicos: 
+  - text: "Para ajudar a galera do TI, me informa o link que está com erro e que problema você encontrou nesse link?"
+
+  utter_correcoes: 
+  - text: "Eita! Parece que cometemos um erro! Para ajudar nosso time, especifique qual foi o erro: \n
+        - Informações incorretas \n
+        - Erros de português \n
+        - Erros técnicos \n
+        "
+
+  utter_info_incorreta: 
+  - text: "Poxa,​ mil desculpas! Nossa credibilidade vale muito para nós. Poderia nos indicar o link de onde erramos e 
+            nos contar o erro que cometemos?"
+
+  utter_erro_portugues: 
+  - text: "Vixe! Acabamos deixando passar essa! Mas a gente ama saber que nossos leitores são super atentos! Poderia nos 
+            indicar o link de onde erramos e especificar que erro cometemos?"
+
+  utter_reclamacoes: 
+  - text: "Sou todo ouvidos. Qual é o conteúdo da sua insatisfação? \n
+            - Direito de réplica \n 
+            - Informações incorretas \n 
+            - Erros de português \n 
+            - Problemas técnicos \n 
+            - Outro motivo \n "
+
+  utter_direito_replica: 
+  - text: "Nós sentimos sinceramente por quaisquer prejuízos de imagem injustos que cometemos. Para podermos nos redimir, 
+            você poderia indicar o link da matéria à qual se refere?"
+
+  utter_dia_retorno: 
+  - text: "Como eu disse, estamos indisponíveis até o dia {DIA_DE_RETORNO}, mas resolveremos seu caso assim que possível. 
+            Para nos situar melhor, fale mais sobre a situação."
+
+  utter_outro_motivo: 
+  - text: "Nós sentimos sinceramente por quaisquer erros que cometemos. Para podermos nos redimir, fale mais sobre 
+            sua reclamação. Caso julgue necessário, acrescente também arquivos de imagem ou vídeo."
+
+  utter_agradecimentos: 
+  - text: "Muito obrigado pelas informações! Arrasou demais!"
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -494,5 +569,21 @@ actions:
   - utter_botao
   - utter_afirmacao_botao
   - utter_negacao_botao
+
+# CAMPUSITO
+  - utter_sugestao
+  - utter_pauta
+  - utter_anonimato
+  - utter_identificar
+  - utter_agradecimentos
+  - utter_outras
+  - utter_prob_tecnicos
+  - utter_correcoes
+  - utter_info_incorreta
+  - utter_erro_portugues
+  - utter_reclamacoes
+  - utter_direito_replica
+  - utter_dia_retorno
+  - utter_outro_motivo
 
   - action_test
