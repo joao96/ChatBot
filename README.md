@@ -1,6 +1,6 @@
 # Campusito ChatBot
 
-Um projeto de um ChatBot feito em Rasa para auxiliar os usuários do CAMPUS ONLINE da Faculdade de Comunicação (FAC) da Universidade de Brasília (UnB).
+Um projeto de um ChatBot feito em [Rasa](https://rasa.com/) para auxiliar os usuários do CAMPUS ONLINE da Faculdade de Comunicação (FAC) da Universidade de Brasília (UnB).
 
 ## Configurando o projeto
 
@@ -32,7 +32,7 @@ venv/Scripts/activate
 source venv/bin/activate
 ```
 
-Feito isso, basta instalar as dependências que estamos utilizando. Primeiramente, vamos verificar o pip:
+Feito isso, basta instalar as dependências que estamos utilizando. Primeiramente, vamos verificar o [pip](https://pypi.org/project/pip/):
 
 ```
 python -m pip install --upgrade pip
