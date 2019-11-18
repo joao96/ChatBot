@@ -34,42 +34,41 @@ templates:
   
   utter_greet: 
     - text: "Eu sou o Campusito, a foca do Campus Online. Prazer é todo meu, migo! Muito bom ver você por aqui, 
-            mas sad news: nosso jornal está em período de transição no momento e voltamos a ativa no dia {DIA_DE_RETORNO}, 
-            só que nada vai me impedir de ouvir tudo o que você tem a dizer e responder assim que possível! Me diz aí o que você manda \n
+            mas sad news: nosso jornal está em período de transição no momento, mas nada vai me impedir de ouvir 
+            tudo o que você tem a dizer e responder assim que possível! Me diz aí o que você manda \n
           - Sugestões \n
           - Problemas Técnicos \n
           - Correções \n
-          - Reclamações \n
-          "
+          - Reclamações \n"
+          
   utter_sugestao: 
-    - text: " - Sugestão de pauta \n
-            - Outras sugestões"
+    - text: " Você deseja fazer uma sugestão de pauta? Ou outras sugestões?"
   
   utter_pauta: 
     - text: "Jornalismo é algo colaborativo, sabia? Por isso, pode ficar a vontade para sugerir pautas que você viu 
-            por aí ou que está envolvido! Ó, como eu disse, estamos offs até o dia {DIA_DE_RETORNO}, mas veremos sua 
+            por aí ou que está envolvido! Ó, como eu disse, no momento não estamos disponíveis, mas veremos sua 
             sugestão assim que possível. Como fonte, você pode ser identificada na matéria ou permanecer no anonimato. 
-            Independente da escolha, pediremos seu contato para conversarmos no futuro."
+            Independente da escolha, pediremos seu contato para conversarmos no futuro. \n
+            Então, deseja ser identificada ou permanecer em anonimato?"
   
   utter_anonimato: 
     - text: "Sem problemas, suas mensagens foram salvas. Você gostaria de ficar mais e falar conosco sobre outro assunto?"
   
   utter_identificar: 
-    - text: "Obrigada, {NOME}, suas mensagens foram salvas. Gostaria de ficar por mais um tempinho e falar conosco sobre outro assunto?"
+    - text: "Obrigada! Suas mensagens foram salvas. Gostaria de ficar por mais um tempinho e falar conosco sobre outro assunto?"
   
   utter_outras: 
-    - text: "Sempre apreciamos sugestões! Como eu disse, estamos indisponíveis até o dia {DIA_DE_RETORNO}, 
+    - text: "Sempre apreciamos sugestões! Como eu disse, estamos indisponíveis no momento,
             mas veremos sua sugestão assim que possível."
   
   utter_prob_tecnicos: 
-    - text: "Para ajudar a galera do TI, me informa o link que está com erro e que problema você encontrou nesse link?"
+    - text: "Para ajudar a galera da TI, me informe o link que está com erro e que problema você encontrou nesse link?"
   
   utter_correcoes: 
     - text: "Eita! Parece que cometemos um erro! Para ajudar nosso time, especifique qual foi o erro: \n
           - Informações incorretas \n
           - Erros de português \n
-          - Erros técnicos \n
-          "
+          - Erros técnicos \n"
 
   utter_info_incorreta: 
     - text: "Poxa,​ mil desculpas! Nossa credibilidade vale muito para nós. Poderia nos indicar o link de onde erramos e 
@@ -92,7 +91,7 @@ templates:
             você poderia indicar o link da matéria à qual se refere?"
   
   utter_dia_retorno: 
-    - text: "Como eu disse, estamos indisponíveis até o dia {DIA_DE_RETORNO}, mas resolveremos seu caso assim que possível. 
+    - text: "Como eu disse, estamos indisponíveis no momento, mas resolveremos seu caso assim que possível. 
             Para nos situar melhor, fale mais sobre a situação."
   
   utter_outro_motivo: 
