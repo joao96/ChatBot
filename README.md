@@ -54,9 +54,15 @@ Entre no diretório 'bot' com o seu ambiente virtual ativo. Feito isso, observe 
 sudo make train
 ```
 
+Uma vez treinado, deve-se subir o servidor de actions com o seguinte comando:
+
+```
+rasa run actions
+```
+
 ## Rodando a aplicação Web
 
-Caso não ocorra nenhum erro treinando o bot, basta ativar o webchat agora. Para isso:
+Caso não ocorra nenhum erro treinando o bot, basta ativar o webchat agora. Para isso, abra outra janela no seu terminal e digite:
 
 ### LINUX e MACOS
 
