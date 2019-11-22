@@ -4,8 +4,7 @@
 
 # Configuração para ambiente local
 action_endpoint:
- url: "http://localhost:5055/webhook"
-
+  url: "http://localhost:5055/webhook"
 # Descomente estas linhas para integrar o bot com o Analytics
 #event_broker:
 #  url: rabbitmq

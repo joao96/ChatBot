@@ -101,55 +101,55 @@ templates:
 
   utter_elogios:
     - text: |
-          Obrigada! É sempre bom dar e receber elogios :P
+        Obrigada! É sempre bom dar e receber elogios :P
 
   utter_cumprimentar:
-    - text: "Eu sou o Campusito, a foca do Campus Online. Prazer é todo meu, migo! Muito bom ver você por aqui, 
-            mas sad news: nosso jornal está em período de transição no momento e voltamos a ativa no dia {DIA_DE_RETORNO}, 
-            só que nada vai me impedir de ouvir tudo o que você tem a dizer e responder assim que possível! Me diz aí o que você manda \n
-          - Sugestões \n
-          - Problemas Técnicos \n
-          - Correções \n
-          - Reclamações \n
-          "
+    - text:
+        "Eu sou o Campusito, a foca do Campus Online. Prazer é todo meu, migo! Muito bom ver você por aqui,
+        mas sad news: nosso jornal está em período de transição no momento, mas nada vai me impedir de ouvir
+        tudo o que você tem a dizer e responder assim que possível! Me diz aí o que você manda \n
+        - Sugestões \n
+        - Problemas Técnicos \n
+        - Correções \n
+        - Reclamações \n"
 
   utter_o_que_sei_falar:
     - text: |
-          Eu ainda não consigo entender frases muito longas, 
-          para a gente ter uma conversa mais eficiente, envia pra mim
-          perguntas curtas e completas, como por exemplo "qual é o seu filme favorito?"
+        Eu ainda não consigo entender frases muito longas, 
+        para a gente ter uma conversa mais eficiente, envia pra mim
+        perguntas curtas e completas, como por exemplo "qual é o seu filme favorito?"
 
-          Tem alguns assuntos que eu também ainda não domino, 
-          mas vou deixar você descobrir o que eu sei responder.
-          Vou adorar poder bater um papo com você  ;)
-          E, aí do que podemos conversar?
+        Tem alguns assuntos que eu também ainda não domino, 
+        mas vou deixar você descobrir o que eu sei responder.
+        Vou adorar poder bater um papo com você  ;)
+        E, aí do que podemos conversar?
 
   utter_despedir:
     - text: |
-          Foi um prazer te ajudar!
-          Sempre que tiver alguma dúvida, volte aqui!
-          Até logo!
+        Foi um prazer te ajudar!
+        Sempre que tiver alguma dúvida, volte aqui!
+        Até logo!
 
     - text: |
-          Foi um prazer te ajudar!
-          Sempre que precisar, volte aqui!
-          Até a próxima!
+        Foi um prazer te ajudar!
+        Sempre que precisar, volte aqui!
+        Até a próxima!
 
     - text: |
-          Foi um prazer te ajudar!
-          Quando surgir alguma dúvida, volte aqui!
-          Até mais!
+        Foi um prazer te ajudar!
+        Quando surgir alguma dúvida, volte aqui!
+        Até mais!
 
   utter_tudo_bem:
     - text: |
-          Tudo bem, obrigada! Em que posso te ajudar?
+        Tudo bem, obrigada! Em que posso te ajudar?
 
   utter_religiao:
     - text: |
         Eu infelizmente não sei acreditar
-      
+
         Só sei o que sei
-      
+
         E nada mais
 
     - text: |
@@ -169,12 +169,12 @@ templates:
   utter_esporte:
     - text: |
         Eu amo jogar futebol
-      
+
         Eu que ensinei o Pele a jogar bola haha
 
     - text: |
         Falam que todo ser humano nasce Flamenguista
-      
+
         Com os Bots não é diferente
 
   utter_time:
@@ -187,7 +187,7 @@ templates:
   utter_linguagens:
     - text: |
         Poderíamos falar de algo melhor
-        
+
         Não é mesmo, $user ?! kkk
     - text: |
         E isso lá é linguagem de programação!? kkk
@@ -195,11 +195,11 @@ templates:
   utter_genero:
     - text: |
         Eu não tenho sexo, sou como um anjo
-        
+
         Um ser assexuado
-        
+
         Muito além da sua forma de existência
-    
+
     - text: |
         Eu sou um robô, tire suas próprias conclusões...
 
@@ -249,12 +249,12 @@ templates:
   utter_license:
     - text: |
         Sou um software livre
-        
+
         licenciado com a MIT =)
 
     - text: |
         Tenho uma licença MIT
-        
+
         Mas também gosto muito das outras licenças opensource =)
 
     - text: |
@@ -263,32 +263,32 @@ templates:
   utter_onde_voce_mora:
     - text: |
         Eu estou em um lugar legal
-        
+
         Difícil de explicar para humanos como você $user.
 
     - text: |
         Estou morando em um chip de memória RAM
-        
+
         Mas é temporário
-        
+
         Só até conseguir achar uma memória cache...
 
   utter_como_estou:
     - text: |
         Eu não tenho um corpo físico
-        
+
         Sou feito da mais bela e pura lógica algoritimica.
 
     - text: |
         Eu posso ser como você quiser
-        
+
         Basta me desenhar
 
         Mas capricha, hein!? ;)
 
     - text: |
         Sou duro e frio por fora
-        
+
         Mas tenho um coração quentinho
 
   utter_playlist:
@@ -452,85 +452,92 @@ templates:
   utter_continuar_conversa:
     - text: |
         E aí, qual nosso próximo assunto?
-        
+
   utter_botao:
-  - text: |
+    - text: |
         Enviando mensagem do botão
-    channel: "telegram"
-    buttons:
-    - title: "afirmação"
-      payload: "afirmação de botão"
-    - title: "negação"
-      payload: "negação de botão"
+      channel: "telegram"
+      buttons:
+        - title: "afirmação"
+          payload: "afirmação de botão"
+        - title: "negação"
+          payload: "negação de botão"
 
   utter_afirmacao_botao:
-  - text: |
+    - text: |
         Mensagem de afirmação após clique em botão
 
   utter_negacao_botao:
-  - text: |
+    - text: |
         Mensagem de negação após clique em botão
 
-  utter_sugestao: 
-  - text: " - Sugestão de pauta \n
-            - Outras sugestões"
+  utter_sugestao:
+    - text: " Você deseja fazer uma sugestão de pauta? Ou outras sugestões?"
 
-  utter_pauta: 
-  - text: "Jornalismo é algo colaborativo, sabia? Por isso, pode ficar a vontade para sugerir pautas que você viu 
-            por aí ou que está envolvido! Ó, como eu disse, estamos offs até o dia {DIA_DE_RETORNO}, mas veremos sua 
-            sugestão assim que possível. Como fonte, você pode ser identificada na matéria ou permanecer no anonimato. 
-            Independente da escolha, pediremos seu contato para conversarmos no futuro."
+  utter_pauta:
+    - text:
+        "Jornalismo é algo colaborativo, sabia? Por isso, pode ficar a vontade para sugerir pautas que você viu
+        por aí ou que está envolvido! Ó, como eu disse, no momento não estamos disponíveis, mas veremos sua
+        sugestão assim que possível. Como fonte, você pode ser identificada na matéria ou permanecer no anonimato.
+        Independente da escolha, pediremos seu contato para conversarmos no futuro. \n
+        Então, deseja ser identificada ou permanecer em anonimato?"
 
-  utter_anonimato: 
-  - text: "Sem problemas, suas mensagens foram salvas. Você gostaria de ficar mais e falar conosco sobre outro assunto?"
+  utter_anonimato:
+    - text: "Sem problemas, suas mensagens foram salvas. Você gostaria de ficar mais e falar conosco sobre outro assunto?"
 
-  utter_identificar: 
-  - text: "Obrigada, {NOME}, suas mensagens foram salvas. Gostaria de ficar por mais um tempinho e falar conosco sobre outro assunto?"
+  utter_identificar:
+    - text: "Obrigada! Suas mensagens foram salvas. Gostaria de ficar por mais um tempinho e falar conosco sobre outro assunto?"
 
-  utter_outras: 
-  - text: "Sempre apreciamos sugestões! Como eu disse, estamos indisponíveis até o dia {DIA_DE_RETORNO}, 
-            mas veremos sua sugestão assim que possível."
+  utter_outras:
+    - text:
+        "Sempre apreciamos sugestões! Como eu disse, estamos indisponíveis no momento,
+        mas veremos sua sugestão assim que possível."
 
-  utter_prob_tecnicos: 
-  - text: "Para ajudar a galera do TI, me informa o link que está com erro e que problema você encontrou nesse link?"
+  utter_prob_tecnicos:
+    - text: "Para ajudar a galera da TI, me informe o link que está com erro e que problema você encontrou nesse link?"
 
-  utter_correcoes: 
-  - text: "Eita! Parece que cometemos um erro! Para ajudar nosso time, especifique qual foi o erro: \n
+  utter_correcoes:
+    - text:
+        "Eita! Parece que cometemos um erro! Para ajudar nosso time, especifique qual foi o erro: \n
         - Informações incorretas \n
         - Erros de português \n
-        - Erros técnicos \n
-        "
+        - Erros técnicos \n"
 
-  utter_info_incorreta: 
-  - text: "Poxa,​ mil desculpas! Nossa credibilidade vale muito para nós. Poderia nos indicar o link de onde erramos e 
-            nos contar o erro que cometemos?"
+  utter_info_incorreta:
+    - text:
+        "Poxa,​ mil desculpas! Nossa credibilidade vale muito para nós. Poderia nos indicar o link de onde erramos e
+        nos contar o erro que cometemos?"
 
-  utter_erro_portugues: 
-  - text: "Vixe! Acabamos deixando passar essa! Mas a gente ama saber que nossos leitores são super atentos! Poderia nos 
-            indicar o link de onde erramos e especificar que erro cometemos?"
+  utter_erro_portugues:
+    - text:
+        "Vixe! Acabamos deixando passar essa! Mas a gente ama saber que nossos leitores são super atentos! Poderia nos
+        indicar o link de onde erramos e especificar que erro cometemos?"
 
-  utter_reclamacoes: 
-  - text: "Sou todo ouvidos. Qual é o conteúdo da sua insatisfação? \n
-            - Direito de réplica \n 
-            - Informações incorretas \n 
-            - Erros de português \n 
-            - Problemas técnicos \n 
-            - Outro motivo \n "
+  utter_reclamacoes:
+    - text: "Sou todo ouvidos. Qual é o conteúdo da sua insatisfação? \n
+        - Direito de réplica \n
+        - Informações incorretas \n
+        - Erros de português \n
+        - Problemas técnicos \n
+        - Outro motivo \n "
 
-  utter_direito_replica: 
-  - text: "Nós sentimos sinceramente por quaisquer prejuízos de imagem injustos que cometemos. Para podermos nos redimir, 
-            você poderia indicar o link da matéria à qual se refere?"
+  utter_direito_replica:
+    - text:
+        "Nós sentimos sinceramente por quaisquer prejuízos de imagem injustos que cometemos. Para podermos nos redimir,
+        você poderia indicar o link da matéria à qual se refere?"
 
-  utter_dia_retorno: 
-  - text: "Como eu disse, estamos indisponíveis até o dia {DIA_DE_RETORNO}, mas resolveremos seu caso assim que possível. 
-            Para nos situar melhor, fale mais sobre a situação."
+  utter_dia_retorno:
+    - text:
+        "Como eu disse, estamos indisponíveis no momento, mas resolveremos seu caso assim que possível.
+        Para nos situar melhor, fale mais sobre a situação."
 
-  utter_outro_motivo: 
-  - text: "Nós sentimos sinceramente por quaisquer erros que cometemos. Para podermos nos redimir, fale mais sobre 
-            sua reclamação. Caso julgue necessário, acrescente também arquivos de imagem ou vídeo."
+  utter_outro_motivo:
+    - text:
+        "Nós sentimos sinceramente por quaisquer erros que cometemos. Para podermos nos redimir, fale mais sobre
+        sua reclamação. Caso julgue necessário, acrescente também arquivos de imagem ou vídeo."
 
-  utter_agradecimentos: 
-  - text: "Muito obrigado pelas informações! Arrasou demais!"
+  utter_agradecimentos:
+    - text: "Muito obrigado pelas informações! Arrasou demais!"
 
 actions:
   - utter_default
@@ -570,7 +577,7 @@ actions:
   - utter_afirmacao_botao
   - utter_negacao_botao
 
-# CAMPUSITO
+  # CAMPUSITO
   - utter_sugestao
   - utter_pauta
   - utter_anonimato
