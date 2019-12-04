@@ -1,13 +1,3 @@
-## cumprimentar action_test
-* cumprimentar
-    - utter_cumprimentar
-* action_test
-    - action_test
-
-## action_test
-* action_test
-    - action_test
-
 ## path_religiao 1
 * religiao
     - utter_religiao
@@ -372,7 +362,11 @@
 * pauta
   - utter_pauta
 * anonimato
-  - utter_anonimato
+  - utter_input_texto
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}
+  <!-- - utter_anonimato -->
   - utter_agradecimentos
 
 ## sugestao path pauta identifcar
@@ -384,11 +378,13 @@
   - utter_identificar
   - utter_agradecimentos
 
+
 ## sugestao path outras
 * sugestao
   - utter_sugestao
 * outras
   - utter_outras
+  - utter_input_texto
   - utter_agradecimentos
 
 ## prob_tecnicos path

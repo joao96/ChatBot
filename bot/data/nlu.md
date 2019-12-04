@@ -1,11 +1,3 @@
-## intent:action_test
-- test custom action
-- custom action
-- actions
-- custom actions
-- action
-- test action
-
 ## intent:religiao
 - voce acredita em [deus](religiao)
 - [deus] (religiao) existe

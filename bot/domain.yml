@@ -51,8 +51,6 @@ intents:
   - direito_replica
   - outro_motivo
 
-  - action_test
-
 entities:
   - religiao
   - esporte
@@ -77,6 +75,15 @@ entities:
   - hobby
   - bff
   - historia
+  - feedback
+
+slots:
+  feedback:
+    type: unfeaturized
+    auto_fill: false
+
+forms:
+  - input_form
 
 templates:
   utter_default:
@@ -105,7 +112,7 @@ templates:
 
   utter_cumprimentar:
     - text:
-        "Eu sou o Campusito, a foca do Campus Online. Prazer é todo meu, migo! Muito bom ver você por aqui,
+        "Eu sou o Campusito {feedback}, a foca do Campus Online. Prazer é todo meu, migo! Muito bom ver você por aqui,
         mas sad news: nosso jornal está em período de transição no momento, mas nada vai me impedir de ouvir
         tudo o que você tem a dizer e responder assim que possível! Me diz aí o que você manda \n
         - Sugestões \n
@@ -451,7 +458,7 @@ templates:
 
   utter_continuar_conversa:
     - text: |
-        E aí, qual nosso próximo assunto?
+        E aí, qual nosso próximo assunto? {feedback}
 
   utter_botao:
     - text: |
@@ -482,8 +489,12 @@ templates:
         Independente da escolha, pediremos seu contato para conversarmos no futuro. \n
         Então, deseja ser identificada ou permanecer em anonimato?"
 
+
+  utter_input_texto:
+    - text: "Por favor, me diga suas considerações."
+
   utter_anonimato:
-    - text: "Sem problemas, suas mensagens foram salvas. Você gostaria de ficar mais e falar conosco sobre outro assunto?"
+    - text: "Sem problemas, sua mensagem foi salva. Você gostaria de ficar mais e falar conosco sobre outro assunto?"
 
   utter_identificar:
     - text: "Obrigada! Suas mensagens foram salvas. Gostaria de ficar por mais um tempinho e falar conosco sobre outro assunto?"
@@ -537,7 +548,7 @@ templates:
         sua reclamação. Caso julgue necessário, acrescente também arquivos de imagem ou vídeo."
 
   utter_agradecimentos:
-    - text: "Muito obrigado pelas informações! Arrasou demais!"
+    - text: "Muito obrigado pelas informações! Arrasou demais! \n {feedback}"
 
 actions:
   - utter_default
@@ -592,5 +603,4 @@ actions:
   - utter_direito_replica
   - utter_dia_retorno
   - utter_outro_motivo
-
-  - action_test
+  - utter_input_texto
