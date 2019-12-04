@@ -364,10 +364,11 @@
 * anonimato
   - utter_input_texto
   - input_form
-  - form{"name": "input_form"}
-  - form{"name": null}
-  <!-- - utter_anonimato -->
+  - form{"name": "input_form"} <!-- ativa o form  -->
+  - form{"name": null} <!-- desativa o form  -->
   - utter_agradecimentos
+  - utter_continuar_conversa
+
 
 ## sugestao path pauta identifcar
 * sugestao
@@ -375,77 +376,121 @@
 * pauta
   - utter_pauta
 * identificar
-  - utter_identificar
+  - utter_input_texto
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}
   - utter_agradecimentos
+  - utter_continuar_conversa
 
 
 ## sugestao path outras
 * sugestao
   - utter_sugestao
 * outras
-  - utter_outras
   - utter_input_texto
-  - utter_agradecimentos
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}
+  - utter_outras
+  - utter_continuar_conversa
+  
 
 ## prob_tecnicos path
 * prob_tecnicos
   - utter_prob_tecnicos
-  - utter_agradecimentos
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}
+  - utter_agradecimentos  
+  - utter_continuar_conversa
 
 ## correcoes path info_incorreta
 * correcoes
   - utter_correcoes
 * info_incorreta
   - utter_info_incorreta
-  - utter_agradecimentos
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}  
+  - utter_agradecimentos  
+  - utter_continuar_conversa
 
 ## correcoes path erro_portugues
 * correcoes
   - utter_correcoes
 * erro_portugues
   - utter_erro_portugues
-  - utter_agradecimentos
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}  
+  - utter_agradecimentos  
+  - utter_continuar_conversa
 
 ## correcoes path erro_tecnico
 * correcoes
   - utter_correcoes
 * prob_tecnicos
   - utter_prob_tecnicos
-  - utter_agradecimentos
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}  
+  - utter_agradecimentos  
+  - utter_continuar_conversa
 
 ## reclamacoes path direito_replica
 * reclamacoes
   - utter_reclamacoes
 * direito_replica
   - utter_direito_replica
+  - input_form
   - utter_dia_retorno
-  - utter_agradecimentos
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}
+  - utter_agradecimentos  
+  - utter_continuar_conversa  
 
 ## reclamacoes path info_incorreta
 * reclamacoes
   - utter_reclamacoes
 * info_incorreta
   - utter_info_incorreta
-  - utter_agradecimentos
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}
+  - utter_agradecimentos  
+  - utter_continuar_conversa
 
 ## reclamacoes path erro_portugues
 * reclamacoes
   - utter_reclamacoes
 * erro_portugues
   - utter_erro_portugues
-  - utter_agradecimentos
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}
+  - utter_agradecimentos  
+  - utter_continuar_conversa
 
 ## reclamacoes path erro_tecnico
 * reclamacoes
   - utter_reclamacoes
 * prob_tecnicos
   - utter_prob_tecnicos
-  - utter_agradecimentos
-
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}
+  - utter_agradecimentos  
+  - utter_continuar_conversa
 
 ## reclamacoes path outro_motivo
 * reclamacoes
   - utter_reclamacoes
 * outro_motivo
   - utter_outro_motivo
-  - utter_agradecimentos
+  - input_form
+  - form{"name": "input_form"}
+  - form{"name": null}
+  - utter_agradecimentos  
+  - utter_continuar_conversa

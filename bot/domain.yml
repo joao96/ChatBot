@@ -458,7 +458,7 @@ templates:
 
   utter_continuar_conversa:
     - text: |
-        E aí, qual nosso próximo assunto? {feedback}
+        E aí, qual nosso próximo assunto?
 
   utter_botao:
     - text: |
@@ -492,12 +492,6 @@ templates:
 
   utter_input_texto:
     - text: "Por favor, me diga suas considerações."
-
-  utter_anonimato:
-    - text: "Sem problemas, sua mensagem foi salva. Você gostaria de ficar mais e falar conosco sobre outro assunto?"
-
-  utter_identificar:
-    - text: "Obrigada! Suas mensagens foram salvas. Gostaria de ficar por mais um tempinho e falar conosco sobre outro assunto?"
 
   utter_outras:
     - text:
@@ -545,10 +539,13 @@ templates:
   utter_outro_motivo:
     - text:
         "Nós sentimos sinceramente por quaisquer erros que cometemos. Para podermos nos redimir, fale mais sobre
-        sua reclamação. Caso julgue necessário, acrescente também arquivos de imagem ou vídeo."
+        sua reclamação."
 
   utter_agradecimentos:
-    - text: "Muito obrigado pelas informações! Arrasou demais! \n {feedback}"
+    - text: "Muito obrigado pelo feedback! \n A mensagem: {feedback} foi salva com sucesso!"
+  
+  utter_feedback_completo:
+    - text: "Guardando informação..."
 
 actions:
   - utter_default
@@ -591,8 +588,6 @@ actions:
   # CAMPUSITO
   - utter_sugestao
   - utter_pauta
-  - utter_anonimato
-  - utter_identificar
   - utter_agradecimentos
   - utter_outras
   - utter_prob_tecnicos
@@ -604,3 +599,4 @@ actions:
   - utter_dia_retorno
   - utter_outro_motivo
   - utter_input_texto
+  - utter_feedback_completo

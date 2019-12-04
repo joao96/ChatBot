@@ -30,6 +30,7 @@ class InputForm(FormAction):
         return {
             "feedback": [self.from_entity(entity="feedback"), self.from_text()],
         }
+        
     def submit(
             self,
             dispatcher: CollectingDispatcher,
@@ -38,5 +39,5 @@ class InputForm(FormAction):
     ) -> List[Dict]:
         """Define what the form has to do after all required slots are filled"""
         # utter submit template
-        dispatcher.utter_template("utter_anonimato", tracker)
+        dispatcher.utter_template("utter_feedback_completo", tracker)
         return []
