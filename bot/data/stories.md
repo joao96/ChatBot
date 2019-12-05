@@ -34,18 +34,6 @@
     - utter_time
     - utter_continuar_conversa
 
-## path_linguagens 1
-* linguagens
-    - utter_linguagens
-    - utter_continuar_conversa
-
-## path_linguagens 2
-* cumprimentar
-    - utter_cumprimentar
-* linguagens
-    - utter_linguagens
-    - utter_continuar_conversa
-
 ## path_genero 1
 * genero
     - utter_genero

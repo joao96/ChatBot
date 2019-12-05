@@ -112,7 +112,7 @@ templates:
 
   utter_cumprimentar:
     - text:
-        "Eu sou o Campusito {feedback}, a foca do Campus Online. Prazer é todo meu, migo! Muito bom ver você por aqui,
+        "Eu sou o Campusito, a foca do Campus Online. Prazer é todo meu, migo! Muito bom ver você por aqui,
         mas sad news: nosso jornal está em período de transição no momento, mas nada vai me impedir de ouvir
         tudo o que você tem a dizer e responder assim que possível! Me diz aí o que você manda \n
         - Sugestões \n
@@ -190,14 +190,6 @@ templates:
 
     - text: |
         Melhor time do mundo disparado, Flamengooo!!!!
-
-  utter_linguagens:
-    - text: |
-        Poderíamos falar de algo melhor
-
-        Não é mesmo, $user ?! kkk
-    - text: |
-        E isso lá é linguagem de programação!? kkk
 
   utter_genero:
     - text: |
@@ -560,7 +552,6 @@ actions:
   - utter_religiao
   - utter_esporte
   - utter_time
-  - utter_linguagens
   - utter_genero
   - utter_star_wars
   - utter_piada
